@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: lato;
+            src: url('fonts/Lato-Black.ttf');
+        }
+
+        @font-face {
+            font-family: lato-regular;
+            src: url('fonts/Lato-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: lato-bold;
+            src: url('fonts/Lato-Bold.ttf');
+        }
+    </style>
+    <title>IIMM Ayodhya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- top -->
+        <div class="row text-bg-primary py-2">
+            <div class="col-sm-6 text-center lato">Welcome IIMM Ayodhya</div>
+            <div class="col-sm-6 text-center lato">HOME &nbsp;&nbsp;|&nbsp;&nbsp;IIMM
+                Branches&nbsp;&nbsp;|&nbsp;&nbsp;AICTE
+                Corner </div>
+        </div>
+        <!--  -->
+        <!-- Logo part -->
+        <div class="row my-2">
+            <div class="col-sm-4 d-flex justify-content-center  align-items-center ">
+                <div class="ms-4">
+                    <img src="images/logo.png" height="125px" alt="">
+                </div>
+                <div class="ms-4">
+                    <h2 class="lato">IIMM, Ayodhya</h2>
+                    <h6 class="lato">Indian Institue of Material and Management</h6>
+                </div>
+
+            </div>
+            <div class="col-sm-4 d-flex mt-3 mt-sm-0 justify-content-center align-items-center">
+                <div>
+                    <img src="images/g20-logo.png" height="60px" alt="">
+                </div>
+                <div class="ms-3">
+                    <button class="btn btn-outline-dark">An Institue of Eminence</button>
+                </div>
+            </div>
+            <div class="col-sm-4 contact_us text-center">
+                <div class="me-5 mt-4 lato"><img src="images/gifs/phone.gif" class="px-2" height="30px" class="mb-1"
+                        alt="">Call
+                    US:+91 00000 00000</div>
+                <div class="lato"> <img src="images/gifs/subtitle.gif" height="30px" class="px-2" class="mb-1"
+                        alt="">Mail
+                    Us:info@iimmayodhya.org</div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- Navbar -->
+        <div class="row" style="position: sticky;top:0px;z-index: 999;">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+                    <div class="container-fluid text-bg-primary py-2">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item lato">
+                                    <a class="nav-link active text-light fw-light" aria-current="page"
+                                        href="#">Home <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        The Institue  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-dark fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-dark fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-dark fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Education  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Events  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Knowledge Bank  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Membership  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        MMR  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Useful links  <span class="vertical_bar">&nbsp&nbsp|&nbsp&nbsp</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link lato active text-light fw-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Contact us
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Another action</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light fw-light" href="#">Something else
+                                                here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--  -->
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/four.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/two.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/three.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- marquee -->
+        <div class="row">
+            <div class="col-sm-2 text-bg-primary h4 py-2">
+                Announcement
+            </div>
+            <div class="col-sm-10 p-0">
+                <marquee behavior="" direction="left" scrollamount="10">
+                    <span><img src="images/new-star.gif" height="50px" alt="">Lorem ipsum dolor sit amet consectetur
+                        //</span>
+                    <span><img src="images/new-star.gif" height="50px" alt="">Lorem ipsum dolor sit amet consectetur
+                        //</span>
+                    <span><img src="images/new-star.gif" height="50px" alt="">Lorem ipsum dolor sit amet consectetur
+                        //</span>
+                </marquee>
+            </div>
+        </div>
+        <!-- News -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 h2 mt-4 border-primary border-start border-5">Latest News & Updates</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                    <div class="card shadow mb-3 news_card" style="width: 17rem; height: 20rem;">
+                        <img src="images/iit.jpg" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                    <div class="card mb-3 news_card" style="width: 17rem;height: 20rem;">
+                        <img src="images/i201742504.jpg" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                    <div class="card mb-3 news_card" style="width: 17rem;height: 20rem;">
+                        <img src="images/new1.jpeg" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center">
+                    <div class="card mb-3 news_card" style="width: 17rem;height: 20rem;">
+                        <img src="images/images (2).jpeg" height="200px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="row">
+            <div class="col-sm-12 p-0 ">
+                <div class="container-fluid pb-4" style="background-color: #f7efe5;">
+                    <div class="container mt-3">
+                        <div class="row mt-4">
+                            <div class="col-sm-12 lato border-5 border-start border-primary mt-3 h2">
+                                Study @IIMM
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="wrapper">
+                                <i id="left" class="fa-solid fa-angle-left opacity-75"
+                                    style="width: 30px; height: 30px; margin-top: 5px;"></i>
+                                <ul class="carousel_slider">
+                                    <li class="card bg-transparent border-0">
+
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img "><img src="images/q1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0">
+
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img"> <img src="images/q2.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0">
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img"><img src="images/q3.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0">
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img"> <img src="images/q1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0">
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img"> <img src="images/q2.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0">
+                                        <div class="text-bg-primary slider_heading lato">Operational Management</div>
+                                        <div class="img"><img src="images/q1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Ipsa cupiditate
+                                            dicta ratione minus. Excepturi modi, illum voluptate corporis doloremque d
+                                        </p>
+                                    </li>
+                                </ul>
+                                <i id="right" class="fa-solid fa-angle-right opacity-75"
+                                    style="width: 30px; height: 30px;"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Abput -->
+        <div class="row">
+            <div class="col-sm-12 text-bg-primary pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 lato border-5 border-start border-light mt-3 h2">
+                            About IIMM Ayodhya
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 lato-regular">
+                            IIMM is dedicated to the promotion of the profession of Materials Management and with its
+                            multifarious activities, including EDP, seminars, workshops, in-house training programs and
+                            consultancy assignment & Advance Materials Management Programs, with its Headquarters at
+                            Mumbai,
+                            the National Apex body representing, a wide spectrum of professionals, drawn form public and
+                            private sectors through its wide networks of 55 branches and 07 chapters spread all over the
+                            country and with more than 10000 members, IIMM represents a wide spectrum of professionals
+                            engaged in the various facets of Materials Management, responsible for planning, sourcing,
+                            control and distribution of Materials, Logistics & Supply Chain Management to more effective
+                            global interaction, Institute is a chartered member of International Federation of
+                            Purchasing
+                            and Supply Management (IFPSM), Atlanta (USA) Incorporated in Switzerland, which has its
+                            members
+                            in over 44 countries. The Association also conducts Certified Purchase Manager (CPM) and
+                            Accredited Purchasing Practitioner (APP), courses of National Association of Purchasing
+                            Management (NAPM), USA. Three professional organizations viz: The National Association of
+                            Materials Management (until 1956 was known as the National Association of Purchasing
+                            Executives)
+                            The Materials Management Association of India (earlier known as the Purchasing Officer
+                            Association) and The Materials Management Association of Hyderabad merged together in 1975
+                            and
+                            gave birth to the Indian Association of Materials Management (IAMM). This merger was a
+                            milestone
+                            in itself. In April 1983, IAMM was re- christened as Indian Institute of Materials
+                            Management
+                            (IIMM) - India's only professionally recognized body for Materials Management.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Achievement -->
+        <div class="row">
+            <div class="col-sm-12 p-0 ">
+                <div class="container-fluid pb-4">
+                    <div class="container mt-3">
+                        <div class="row mt-4">
+                            <div class="col-sm-12 lato border-5 border-start border-primary mt-3 h2">
+                                Our Achievement
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="wrapper">
+                                <!-- <i id="left" class="fa-solid fa-angle-left opacity-75" style="width: 30px; height: 30px; margin-top: 5px;"></i> -->
+                                <ul class="carousel_slider">
+                                    <li class="card border-0" style="height: 300px;">
+
+
+                                        <div class="img "><img src="images/ach1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify shadow  lato px-4 w-100 text-center">Lorem ipsum
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0" style="height: 300px;">
+
+
+                                        <div class="img"> <img src="images/ach2.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify shadow  lato px-4 w-100 text-center">Lorem ipsum
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0" style="height: 300px;">
+
+                                        <div class="img"><img src="images/ach3.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify  shadow lato px-4 w-100 text-center">Lorem ipsum
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0" style="height: 300px;">
+
+                                        <div class="img"> <img src="images/ach4.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify  shadow lato px-4 w-100 text-center">Lorem ipsum
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0" style="height: 300px;">
+
+                                        <div class="img"> <img src="images/ach1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify lato w-100 shadow px-4">Lorem ipsum
+                                        </p>
+                                    </li>
+                                    <li class="card bg-transparent border-0" style="height: 300px;">
+
+                                        <div class="img"><img src="images/ach1.jpg" height="200px" class="card-img-top"
+                                                alt="..."></div>
+
+                                        <p class="text-justify shadow w-100 lato px-4">Lorem ipsum
+                                        </p>
+                                    </li>
+                                </ul>
+                                <!-- <i id="right" class="fa-solid fa-angle-right opacity-75" style="width: 30px; height: 30px;"></i> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Director mesgae -->
+        <div class="row mt-5">
+            <div class="col-sm-12 text-bg-primary pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 border-5 border-start border-light mt-5 h2 lato ">
+                            Message From Director
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <img src="images/profile.jpg" class="mt-5" width="350px" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 class="mt-4 text-center text-sm-start">Greeting</h4>
+                            <hr>
+                            <div class="lato-regular text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Ipsam
+                                cum ratione voluptas ex
+                                reprehenderit. Minima pariatur distinctio aspernatur! Est officiis eos asperiores nihil
+                                tempore aut ut deleniti iste! Veniam, optio necessitatibus? Cumque rem officia
+                                repellendus, ducimus odio ab illum quod tenetur cum deserunt blanditiis laudantium fugit
+                                velit, adipisci placeat cupiditate harum vero, ad error id neque nemo voluptas incidunt
+                                voluptatem. Optio culpa laboriosam iure amet impedit cumque molestias ab sit nemo
+                                voluptas incidunt voluptatem. Optio culpa laboriosam iure amet impedit cumque molestias
+                                ab sit pariatur omnis quidem temporibus vero natus, dolorum perferendis, beatae, est
+                                odio recusandae voluptas? Minima totam molestiae ea sequi voluptatibus deleniti deserunt
+                                in quasi nihil praesentium ipsa nulla eos doloremque sit eum commodi, dolorem,
+                                repudiandae tempore magnam repellendus fugit. Vel rem, ullam molestiae qui
+                                exercitationem numquam perferendis amet mollitia nobis voluptatibus aliquid perspiciatis
+                                tempore inventore doloribus ad laborum. Incidunt deserunt quaerat animi quos officiis,
+                                fugit corporis? Quia, iure id? Alias in facilis quasi laboriosam reiciendis? Hic
+                                temporibus rerum fugit corporis? Quia, iure id? Alias in facilis quasi laboriosam
+                                reiciendis? Hic temporibus rerum fugit corporis? Quia, iure id? Alias in facilis quasi
+                                laboriosam reiciendis? Hic temporibus rerum</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- dates -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 p-5">
+            <div class="col cb">
+                <div class="card border-0">
+                    <div class="row mx-auto p-0 shadow rounded-2">
+                        <div class="col-sm-4 mx-auto ss">
+                            <h1 class=" fw-bold date_calender"
+                                style="color:rgb(2, 100, 213); padding-left: 78px; font-size: 45px; padding-top:35px;">
+                                <i class="fa-solid fa-calendar-days"></i>&nbsp;
+                            </h1>
+                            <h3 class=" fw-bold pb-3 date_head" style="padding-left:50px; ">21 Jun</h3>
+                        </div>
+                        <div class="col-sm-8 date_border">
+
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text p-2" style="text-align: justify; font-family: sans-serif;">Workshops
+                                    and
+                                    Seminars Focus on materials management, supply chain management, and logistics.
+                                    These
+                                    sessions will provide insights into industry trends and techniques.
+
+                                </p>
+                                <div class="row parent_year">
+                                    <div class="col-sm-3 w50">
+
+                                        <p class="pt-0 fw-bold calender_year" style="margin-top: -15px; ;">2024</p>
+
+                                    </div>
+                                    <div class="col-sm-9 text-end w50">
+                                        <p class="pt-0 fw-bold" style="margin-top: -15px; ">3:00 PM</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col cb">
+                <div class="card border-0">
+                    <div class="row my-auto p-0 mx-auto shadow rounded-2">
+                        <div class="col-sm-4 ss">
+                            <h1 class=" fw-bold date_calender"
+                                style="color:rgb(2, 100, 213); padding-left: 78px; font-size: 45px; padding-top:35px;">
+                                <i class="fa-solid fa-calendar-days"></i>&nbsp;
+                            </h1>
+                            <h3 class=" fw-bold pb-3 date_head" style="padding-left:50px; ">1 July</h3>
+                        </div>
+                        <div class="col-sm-8 date_border">
+
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text p-2 " style="text-align: justify; font-family: sans-serif;">
+                                    Workshops and
+                                    Seminars Focus on materials management, supply chain management, and logistics.
+                                    These
+                                    sessions will provide insights into industry trends and techniques.
+
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-3 w50">
+
+                                        <p class="pt-0 fw-bold calender_year" style="margin-top: -15px; ;">2024</p>
+
+                                    </div>
+                                    <div class="col-sm-9  text-end w50">
+                                        <p class="pt-0 fw-bold" style="margin-top: -15px; ">3:00 PM</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col cb">
+                <div class="card border-0">
+                    <div class="row mx-auto p-0 shadow rounded-2">
+                        <div class="col-sm-4 ss">
+                            <h1 class=" fw-bold date_calender"
+                                style="color:rgb(2, 100, 213); padding-left: 78px; font-size: 45px; padding-top:35px;">
+                                <i class="fa-solid fa-calendar-days"></i>&nbsp;
+                            </h1>
+                            <h3 class=" fw-bold pb-3 date_head" style="padding-left:50px; ">8 July</h3>
+                        </div>
+                        <div class="col-sm-8 date_border">
+
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text p-2" style="text-align: justify; font-family: sans-serif;">Workshops
+                                    and
+                                    Seminars Focus on materials management, supply chain management, and logistics.
+                                    These
+                                    sessions will provide insights into industry trends and techniques.
+
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-3 w50">
+
+                                        <p class="pt-0 fw-bold calender_year" style="margin-top: -15px; ;">2024</p>
+
+                                    </div>
+                                    <div class="col-sm-9 text-end w50">
+                                        <p class="pt-0 fw-bold" style="margin-top: -15px; ">3:00 PM</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col cb">
+                <div class="card border-0">
+                    <div class="row my-auto p-0 mx-auto shadow rounded-2">
+                        <div class="col-sm-4 ss">
+                            <h1 class=" fw-bold date_calender"
+                                style="color:rgb(2, 100, 213); padding-left: 78px; font-size: 45px; padding-top:35px;">
+                                <i class="fa-solid fa-calendar-days"></i>&nbsp;
+                            </h1>
+                            <h3 class=" fw-bold pb-3 date_head" style="padding-left:50px; ">10 Aug</h3>
+                        </div>
+                        <div class="col-sm-8 date_border">
+
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Card title</h5> -->
+                                <p class="card-text p-2" style="text-align: justify; font-family: sans-serif;">Workshops
+                                    and
+                                    Seminars Focus on materials management, supply chain management, and logistics.
+                                    These
+                                    sessions will provide insights into industry trends and techniques.
+
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-3 w50">
+
+                                        <p class="pt-0 fw-bold calender_year" style="margin-top: -15px; ;">2024</p>
+
+                                    </div>
+                                    <div class="col-sm-9 text-end w50">
+                                        <p class="pt-0 fw-bold" style="margin-top: -15px; ">3:00 PM</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- dates ends -->
+
+        <!-- infos showcase -->
+        <div class="row text-bg-primary py-5 ">
+            <div class="col-lg-3 col-md-6 col-6 text-center">
+                <div class="h2 border border-2 rounded-2 d-inline p-3  "><i class="fa-solid fa-user-graduate "></i>
+                </div>
+                <div class="h3 mt-4">Student</div>
+                <div class="h4 mb-4">1000+</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 text-center">
+                <div class="h2 border border-2 rounded-2 d-inline p-3 "><i class="fa-solid fa-users "></i></div>
+                <div class="h3 mt-4">Faculty</div>
+                <div class="h4 mb-4">100+</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 text-center">
+                <div class="h2 border border-2 rounded-2 d-inline p-3 "><i class="fa-solid fa-user "></i></div>
+                <div class="h3 mt-4">Placement</div>
+                <div class="h4 mb-4">90%</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 text-center">
+                <div class="h2 border border-2 rounded-2 d-inline p-3 "><i class="fa-solid fa-building "></i></div>
+                <div class="h3 mt-4">Department</div>
+                <div class="h4 mb-4">20+</div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- Life at iimm -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-sm-12 border-5 border-start border-primary mt-3 h2">
+                            Life Of IIMM
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-6 d-flex justify-content-center">
+                            <div class="card mb-3 " style="width: 17.5rem;">
+                                <img src="images/sil1.jpeg" class=" life_card card-img-top" height="200px" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6  d-flex justify-content-center">
+                            <div class="card mb-3 " style="width: 17.5rem;">
+                                <img src="images/sili3.jpeg" class=" life_card card-img-top" height="200px" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6  d-flex justify-content-center">
+                            <div class="card mb-3 " style="width: 17.5rem;">
+                                <img src="images/sil4.jpg" class=" life_card card-img-top" height="200px" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6  d-flex justify-content-center">
+                            <div class="card mb-3 " style="width: 17.5rem;">
+                                <img src="images/sil2.jpeg" class=" life_card card-img-top" height="200px" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center py-3 h4">
+                            <i class="fa-solid fa-building-flag pe-2"></i>Explore life of IIMM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row text-bg-primary">
+            <div class="col-sm-12">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-sm-4 col-12 text-center">
+                            <div class="h4 text-start"><i class="fa-solid fa-map-pin pe-3"></i>Find Us</div>
+                            <div class="lato-regular">
+                                <address class="text-start">
+                                    Dev Nagar Colony, Raibareli Road
+                                    (Near Naveen Galla Mandi), Ayodhya (Faizabad) - 224001
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-6 text-center">
+                            <div class="h4 me-4"> <i class="fa-solid fa-phone pe-3"></i>Call us</div>
+                            <div class="lato-regular">+91 00000 00000 <br>
+                                +91 00000 00000</div>
+                        </div>
+                        <div class="col-sm-4 col-6 text-center">
+                            <div class="h4 me-4 pe-3"><i class="fa-solid fa-envelope pe-3"></i>Mail Us</div>
+                            <div class="lato-regular">
+                                info@iimmayodhya.org <br>
+                                info@iimmayodhya.org
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="h3 mt-3">Welcome To IIMM</div>
+                            <hr>
+                            <div class="lato-regular">IIMM is dedicated to the promotion of the profession of Materials
+                                Management and with
+                                its multifarious activities, including EDP, seminars, workshops, in-house training
+                                programs and consultancy assignment.</div>
+                            <div class="h4 mt-3 follow_us">Follow US</div>
+                            <div class="h4 follow_us_icons"><i class="fa-brands fa-facebook pe-2"></i><i
+                                    class="fa-brands fa-twitter px-2"></i><i class="fa-brands fa-instagram px-2"></i>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="h4">Useful Links</div>
+                            <div class="border border-2 border-danger w-25"></div>
+                            <div class="row mt-3">
+                                <div class="col-sm-6 col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Home</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Services</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Contact</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Our Services</a>
+                                        </li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Services</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Home</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Contact</a></li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Our Services</a>
+                                        </li>
+                                        <li><a href="#" class=" py-2 text-light lato-regular fw-bold">Our Services</a>
+                                        </li>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="h4">Subscribe</div>
+                            <div class="border border-2 border-danger w-25"></div>
+                            <div class="lato-regular mt-2">Don’t miss to subscribe to our new feeds, kindly fill the
+                                form below</div>
+                            <div class="mt-3">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-danger" type="submit"><i
+                                            class="fa-brands fa-telegram"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 my-3" style="font-size: 12px;">© Copyright 2024 Designed & Developed By |
+                            Softpro India Computer Technologies (P) Ltd.</div>
+                        <div class="col-sm-6">
+                            <ul class="d-flex justify-content-center list-unstyled">
+                                <li><a href="#" class="px-3 text-light lato-regular fw-bold">Home</a></li>
+                                <li><a href="#" class="px-3 text-light lato-regular fw-bold">Services</a></li>
+                                <li><a href="#" class="px-3 text-light lato-regular fw-bold">Contact</a></li>
+                                <li><a href="#" class="px-3 text-light lato-regular fw-bold">Services</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
